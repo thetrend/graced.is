@@ -1,12 +1,12 @@
 import './App.css';
-import LoginButton from './components/Login';
+import Profile from './components/Auth/Profile';
 
 function App() {
   return (
     <>
-      <LoginButton />
+      <Profile />
     </>
   )
 }
 
-export default App
+export default App;
