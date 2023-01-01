@@ -1,10 +1,9 @@
 import './App.css';
-import Profile from './components/Auth/Profile';
 
-function App() {
+const App = () => {
   return (
     <>
-      <Profile />
+      Hello world
     </>
   )
 }
