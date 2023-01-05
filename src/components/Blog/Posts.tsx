@@ -2,7 +2,6 @@ import request from 'graphql-request';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import dayjs from 'dayjs';
-import RichTextRenderer from './RichTextRenderer';
 
 export interface IPost {
   excerpt: string,
